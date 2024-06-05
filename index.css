@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5f5f5; /* Adding a light background color */
+}
+
+header {
+    width: 100%;
+    background-color: #8B4513; /* Changing background color to chocolate brown */
+    padding: 10px 20px;
+    position: fixed; /* Fixing header at the top */
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Adding shadow for depth */
+    z-index: 1000; /* Ensuring header stays above other content */
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+header a {
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 1px;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white; /* Changing text color to white */
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px; /* Adding space between navigation items */
+    margin: 0;
+    padding: 0;
+}
+
+.banner {
+    
+    height: 500px;
+    display: flex; 
+    align-items: center;
+    background-color: #FFF8DC; 
+    color: #8B4513; 
+}
+
+.banner-image {
+    width: 40%; 
+    height: 10px; 
+    margin-bottom: 300px;
+    background-size: cover;
+    
+}
+
+.banner-text {
+    width: 50%; 
+    padding: 150px; 
+    text-align: left; 
+}
+
+section {
+    padding: 20px;
+}
+
+section#categories {
+    background-color: #D2691E; 
+    color: white;
+    height: 500px;
+}
+
+section#bestsellers {
+    background-color: #CD853F; 
+    color: white; 
+}
+
+footer {
+    background-color: #8B4513; 
+    color: white; 
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: #FFD700; 
+}
